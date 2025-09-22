@@ -1,6 +1,6 @@
 #!name = YoutubeMusic
 #!desc = 屏蔽客户端广告
-#!icon = https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App-Icon/YouTube.png
+#!icon = https://cdn.pixabay.com/photo/2023/04/25/00/48/youtube-7949229_1280.png
 
 [Argument]
 blockUpload = switch, true, false, tag = 移除上传按钮
