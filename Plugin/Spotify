@@ -1,0 +1,17 @@
+#!name = Spotify
+#!desc = 解锁客户端订阅
+#!icon = https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/1200px-Spotify_logo_without_text.svg.png
+
+[Argument]
+tab = switch, false, true, tag = 移除创建按钮
+useractivity = switch, true, false, tag = 启用设备接力
+
+[Rewrite]
+^https:\/\/(?:\w+-spclient|spclient\.wg)\.spotify\.com(?::443)?\/(watch-feed-entrypoints|ads\/v3\/ads|pendragon|merch-npv-service) reject-200
+^https:\/\/(?:\w+-spclient|spclient\.wg)\.spotify\.com(?::443)?\/artistview\/v1\/artist\/(.*)&platform=iphone header https://spclient.wg.spotify.com/artistview/v1/artist/$1&platform=ipad
+
+[Script]
+http-response ^https:\/\/(?:\w+-spclient|spclient\.wg)\.spotify\.com(?::443)?\/(?:bootstrap|user-customization-service) script-path=https://raw.githubusercontent.com/001ProMax/Surge/main/Script/Spotify.Crack.Dev.js, requires-body=true, binary-body-mode=true, tag=解锁处理, argument=[{tab},{useractivity}]
+
+[MitM]
+hostname = *-spclient.spotify.com, spclient.wg.spotify.com
