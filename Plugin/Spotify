@@ -1,6 +1,6 @@
 #!name = Spotify
 #!desc = 解锁客户端订阅
-#!icon = https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/1200px-Spotify_logo_without_text.svg.png
+#!icon = https://preview.redd.it/784srx6npv281.jpg?auto=webp&s=a98d38a68b0b0c9011d057b93a496186afb11205
 
 [Argument]
 tab = switch, false, true, tag = 移除创建按钮
