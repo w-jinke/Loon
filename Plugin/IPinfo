@@ -3,4 +3,4 @@
 #!icon = https://img.freepik.com/vektor-premium/ikon-lokasi-desain-vektor-gaya_822882-11466.jpg
 
 [Script]
-generic script-path=https://github.com/w-jinke/Loon/raw/refs/heads/main/Js/IPinfo.js, timeout=10, tag=节点IP查询, img-url=location.circle.fill
+generic script-path=https://github.com/w-jinke/Loon/raw/refs/heads/main/Js/IPinfo.js, timeout=10, tag=节点查询, img-url=location.circle.fill
