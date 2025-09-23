@@ -3,7 +3,7 @@
 #!icon = https://preview.redd.it/784srx6npv281.jpg?auto=webp&s=a98d38a68b0b0c9011d057b93a496186afb11205
 
 [Argument]
-tab = switch, false, true, tag = 移除创建按钮
+tab = switch, true, false, tag = 移除创建按钮
 useractivity = switch, true, false, tag = 启用设备接力
 
 [Rewrite]
