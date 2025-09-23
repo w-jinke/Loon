@@ -1,6 +1,6 @@
 #!name = 节点查询
 #!desc = 查询节点IP信息
-#!icon = https://img.onlinedown.net/saas/202206/201326-62baf066c5c51.png
+#!icon = https://cdn-icons-png.freepik.com/512/5227/5227386.png
 
 [Script]
 generic script-path=https://github.com/w-jinke/Loon/raw/refs/heads/main/Js/IPinfo.js, timeout=10, tag=节点查询
