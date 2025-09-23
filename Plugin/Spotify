@@ -1,6 +1,6 @@
 #!name = Spotify
 #!desc = 解锁客户端订阅
-#!icon = https://preview.redd.it/784srx6npv281.jpg?auto=webp&s=a98d38a68b0b0c9011d057b93a496186afb11205
+#!icon = https://foxfio.com/wp-content/uploads/2022/01/spotify-icon-512x511-5p0rqbu1.png
 
 [Argument]
 tab = switch, true, false, tag = 移除创建按钮
