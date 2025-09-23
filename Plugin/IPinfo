@@ -1,6 +1,6 @@
 #!name = 节点查询
-#!desc = 查询节点位置信息
-#!icon = https://img.freepik.com/vektor-premium/ikon-lokasi-desain-vektor-gaya_822882-11466.jpg
+#!desc = 查询节点IP信息
+#!icon = https://www.ip1338.com/src/img.BiEdvqKb.png
 
 [Script]
-generic script-path=https://github.com/w-jinke/Loon/raw/refs/heads/main/Js/IPinfo.js, timeout=10, tag=节点查询, img-url=location.circle.fill
+generic script-path=https://github.com/w-jinke/Loon/raw/refs/heads/main/Js/IPinfo.js, timeout=10, tag=节点查询
