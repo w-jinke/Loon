@@ -4,7 +4,7 @@
 
 [Rewrite]
 ^https:\/\/api\.bilibili\.com\/x\/vip\/ads\/materials reject-200
-^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/(list|show|event\/list2)\? response-body-json-jq '.data|=(with_entries(if .key|IN("show","list") then .value=[] else . end)|.max_time=0|.min_interval=99999999)'
+^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/(list|show|event\/list2)\? response-body-json-jq '.data |= with_entries(if .key | IN("show", "event_list") then .value = [] else . end)'
 ^https:\/\/app\.bilibili\.com\/x\/v2\/search response-body-json-jq '.data|=map(select(.type!="recommend")|del(.search_ranking_meta))'
 ^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\? response-body-json-jq '.data.items|= map(select(.rcmd_reason=="竖屏" or .card_goto=="av" ))'
 ^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\/story response-body-json-jq '.data.items|=map(select(.goto=="vertical_av"))'
