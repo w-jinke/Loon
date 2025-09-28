@@ -3,9 +3,9 @@
 #!icon = https://cdn.pixabay.com/photo/2023/04/25/00/48/youtube-7949229_1280.png
 
 [Argument]
-blockUpload = switch, true, false, tag = 移除上传按钮
-blockShorts = switch, true, false, tag = 移除短片按钮
-blockImmersive = switch, true, false, tag = 移除选段按钮
+blockUpload = switch, true, false, tag = 上传按钮
+blockShorts = switch, true, false, tag = 短片按钮
+blockImmersive = switch, true, false, tag = 选段按钮
 
 [Rewrite]
 ^https:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad mock-response-body data-type=text status-code=200
