@@ -3,8 +3,8 @@
 #!icon = https://foxfio.com/wp-content/uploads/2022/01/spotify-icon-512x511-5p0rqbu1.png
 
 [Argument]
-tab = switch, true, false, tag = 移除创建按钮
-useractivity = switch, true, false, tag = 启用设备接力
+tab = switch, true, false, tag = 创建按钮
+useractivity = switch, true, false, tag = 设备接力
 
 [Rewrite]
 ^https:\/\/(?:\w+-spclient|spclient\.wg)\.spotify\.com(?::443)?\/(watch-feed-entrypoints|ads\/v3\/ads|pendragon|merch-npv-service) reject-200
