@@ -7,4 +7,4 @@ http-request ^https:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-
 http-request ^https:\/\/sub\.store script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js, requires-body=true, timeout=60, tag=前端
 
 [MITM]
-hostname=sub.store
+hostname = sub.store
