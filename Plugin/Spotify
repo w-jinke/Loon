@@ -3,7 +3,6 @@
 #!icon = https://foxfio.com/wp-content/uploads/2022/01/spotify-icon-512x511-5p0rqbu1.png
 
 [Argument]
-tab=switch, true, tag = 底栏按钮
 useractivity=switch, true, tag = 设备接力
 
 [Rewrite]
