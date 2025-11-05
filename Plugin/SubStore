@@ -1,6 +1,6 @@
-#!name=订阅管理
-#!desc=多机场订阅管理
-#!icon=https://raw.githubusercontent.com/58xinian/icon/master/Sub-Store1.png
+#!name = 订阅管理
+#!desc = 多机场订阅管理
+#!icon = https://raw.githubusercontent.com/58xinian/icon/master/Sub-Store1.png
 
 [Script]
 http-request ^https:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))) script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js, requires-body=true, timeout=60, tag=后端
