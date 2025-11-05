@@ -56,7 +56,7 @@ $httpClient.get(myRequest, function (error, response, data) {
   let ip = json.ip;
   let org = json.org ? json.org.replace(/^AS\d+\s*/, "") : "未知";
   let loc = json.loc ? json.loc.replace(",", "-") : "未知";
-  let countryText = `${countryMap[json.country] || json.country}｜${json.country}`;
+  let countryText = `${countryMap[json.country] || json.country}-${json.country}`;
 
   let htmlMessage = `
     <div style="font-family: -apple-system; font-size: 13px; text-align: left; line-height: 1.9;">
