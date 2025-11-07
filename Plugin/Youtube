@@ -1,11 +1,11 @@
-#!name = YoutubeMusic
-#!desc = 屏蔽客户端广告
-#!icon = https://cdn.pixabay.com/photo/2023/04/25/00/48/youtube-7949229_1280.png
+#!name=Youtube视频
+#!desc=屏蔽客户端广告
+#!icon=https://cdn.pixabay.com/photo/2023/04/25/00/48/youtube-7949229_1280.png
 
 [Argument]
-blockUpload = switch, true, tag = 移除上传按钮
-blockShorts = switch, true, tag = 移除短片按钮
-blockImmersive = switch, true, tag = 移除选段按钮
+blockUpload=switch, true, tag=移除上传按钮
+blockShorts=switch, true, tag=移除短片按钮
+blockImmersive=switch, true, tag=移除选段按钮
 
 [Rewrite]
 ^https:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad mock-response-body data-type=text status-code=200
