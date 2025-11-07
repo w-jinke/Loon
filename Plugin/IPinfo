@@ -1,6 +1,6 @@
-#!name = 节点查询
-#!desc = 查询节点IP信息
-#!icon = https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm3Lo42aST3vfAIwMc7HwV6Tx2H-Bwi1p55yAkniege_ga8MODgbENrJE&s=10
+#!name=节点查询
+#!desc=查询节点IP信息
+#!icon=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm3Lo42aST3vfAIwMc7HwV6Tx2H-Bwi1p55yAkniege_ga8MODgbENrJE&s=10
 
 [Script]
 generic script-path=https://github.com/w-jinke/Loon/raw/refs/heads/main/Js/IPinfo.js, timeout=10, tag=IP查询, img-url=location.circle.fill
