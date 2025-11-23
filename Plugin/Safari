@@ -1,9 +1,0 @@
-#!name=Safari重定向
-#!desc=定向Safari到Google搜索
-#!icon=https://img.freepik.com/premium-vector/safari-icon-vector-image-can-be-used-adventure_120816-374407.jpg
-
-[Rewrite]
-^https:\/\/www\.google\.cn 302 https://www.google.com
-
-[MitM]
-hostname = www.google.cn
